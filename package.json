@@ -1,0 +1,29 @@
+{
+  "name": "instabid-react-liobrary",
+  "version": "0.0.1",
+  "description": "Instabid react library",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "author": "Julien Jacquet",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.1.0",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^8.3.3",
+    "@types/react": "^17.0.34",
+    "install": "^0.13.0",
+    "npm": "^8.19.2",
+    "react": "^17.0.2",
+    "rollup": "^2.79.1",
+    "rollup-plugin-dts": "^4.2.3",
+    "tslib": "^2.4.0",
+    "typescript": "^4.4.4"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
+}
